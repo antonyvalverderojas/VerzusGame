@@ -684,6 +684,7 @@ GameObject:
   - component: {fileID: 1966117784}
   - component: {fileID: 1966117783}
   - component: {fileID: 1966117786}
+  - component: {fileID: 1966117787}
   m_Layer: 0
   m_Name: BG_Quad
   m_TagString: Untagged
@@ -785,13 +786,32 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966117781}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62876d59eee9f9841b4050ad2e75cbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scrollX: 0.03
   scrollY: 0
+--- !u!114 &1966117787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966117781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ef9270f2154c045a30c32eab5b99a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4776508}
+  axis: 0
+  factorZ: 0.02
+  factorX: 0.02
+  invertZ: 0
+  invertX: 1
+  stillThreshold: 0.0001
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

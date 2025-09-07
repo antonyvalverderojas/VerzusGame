@@ -4,7 +4,7 @@
 public class PlayerController : MonoBehaviour
 {
     [Header("Movimiento")]
-    public float moveSpeed = 6f;
+    public float moveSpeed = 2f;
     public float acceleration = 20f;
     public float deceleration = 30f;
 
