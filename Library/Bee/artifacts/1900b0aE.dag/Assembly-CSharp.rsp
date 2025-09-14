@@ -330,6 +330,7 @@
 -analyzer:"F:/Unity/Project/2022.3.62f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AutoTileToScale.cs"
 "Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/ObstacleSpawner.cs"
 "Assets/Scripts/ParallaxBackground.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Projectile.cs"
